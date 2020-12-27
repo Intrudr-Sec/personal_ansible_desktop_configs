@@ -21,10 +21,10 @@
 - name: software | ulauncher | enable autostart
   tags: ulauncher
   copy:
-    src: users/jay/ulauncher.desktop
-    dest: /home/jay/.config/autostart/ulauncher.desktop
-    owner: jay
-    group: jay
+    src: users/draymond/ulauncher.desktop
+    dest: /home/draymond/.config/autostart/ulauncher.desktop
+    owner: draymond
+    group: draymond
     mode: 0600
   when:
     - ansible_distribution in ["Pop!_OS", "Ubuntu"]

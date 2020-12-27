@@ -1,0 +1,16 @@
+- name: users | seth | add public key
+  tags: dotfiles,seth,ssh,ssh-keys,users
+  authorized_key:
+    user: seth
+    key: "{{ item }}"
+  with_file:
+    - users/seth/ssh/seth_id_ed25519.pub
+
+- name: users | seth | add sudoers file
+  tags: settings,seth,sudo,system,users
+  copy:
+    src: users/sudoers_seth
+    dest: /etc/sudoers.d/seth
+    owner: root
+    group: root
+    mode: 0440
