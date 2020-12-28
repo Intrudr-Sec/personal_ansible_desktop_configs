@@ -1,6 +1,6 @@
 # Personal Ansible Desktop Configs
 
-![Ansible Logo](https://www.learnlinux.tv/wp-content/uploads/2020/12/ansible-e1607524003363.png)
+[![Ansible Logo](https://www.learnlinux.tv/wp-content/uploads/2020/12/ansible-e1607524003363.png)](https://www.youtube.com/c/LearnLinuxtv/)
 
 This Ansible playbook is to configure all of my desktops, laptops, and servers. I use the Ansible Pull method. It's fully automated, and scripts everything from system services to GNOME desktop settings. You can check this channel [LearnLinuxTV](https://www.youtube.com/c/LearnLinuxtv/) for the full coverage.
 This project is fork from Jay tutorial.
